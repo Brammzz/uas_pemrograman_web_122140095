@@ -5,11 +5,7 @@
 ## Overview
 Roomify adalah aplikasi web pemesanan kamar hotel yang dibangun dengan arsitektur modern menggunakan React untuk frontend dan Pyramid Framework (Python) untuk backend. Aplikasi ini menyediakan platform bagi pengguna untuk menjelajahi, memesan, dan mengelola reservasi kamar hotel, serta panel admin untuk mengelola kamar, pemesanan, dan pengguna.
 
-![Roomify Screenshot](https://via.placeholder.com/800x400?text=Roomify+Screenshot) <!-- Ganti dengan screenshot aplikasi Anda -->
-
-### Demo
-- **User Demo**: [https://roomify-app.netlify.app](https://roomify-app.netlify.app) <!-- Ganti dengan URL demo Anda -->
-- **Admin Demo**: [https://roomify-app.netlify.app/admin](https://roomify-app.netlify.app/admin) <!-- Ganti dengan URL demo Anda -->
+![image](https://github.com/user-attachments/assets/3c2af171-b335-49b1-b762-5a7b99f2cb9e)
 
 ## Project Structure
 The project is divided into two main parts:
