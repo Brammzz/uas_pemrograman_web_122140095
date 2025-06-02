@@ -9,7 +9,7 @@ Roomify adalah aplikasi web pemesanan kamar hotel yang dibangun dengan arsitektu
 
 ## Project Structure
 The project is divided into two main parts:
-- **roomify_frontend**: React-based frontend application
+- **roomify-frontend**: React-based frontend application
 - **roomify_backend**: Pyramid-based backend API server
 
 ## Technologies Used
@@ -140,7 +140,7 @@ The project is divided into two main parts:
 ### Frontend Setup
 1. Navigate to the frontend directory:
    ```
-   cd roomify_frontend
+   cd roomify-frontend
    ```
 
 2. Install dependencies:
@@ -178,13 +178,6 @@ Kontribusi selalu diterima! Berikut adalah langkah-langkah untuk berkontribusi:
 3. Commit perubahan Anda (`git commit -m 'Add some AmazingFeature'`)
 4. Push ke branch (`git push origin feature/AmazingFeature`)
 5. Buka Pull Request
-
-## Troubleshooting
-
-### Masalah Umum
-- **Gambar tidak muncul**: Pastikan backend server berjalan dan folder `static/images` memiliki izin yang benar
-- **Error CORS**: Pastikan CORS diaktifkan di backend dan URL frontend terdaftar di whitelist
-- **Database error**: Coba jalankan migrasi ulang dengan `alembic upgrade head`
 
 ## License
 [MIT License](LICENSE)
