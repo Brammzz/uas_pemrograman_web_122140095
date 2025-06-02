@@ -1,0 +1,89 @@
+# Roomify Project .gitignore
+
+# ===== FRONTEND =====
+
+# dependencies
+/roomify-frontend/node_modules
+/roomify-frontend/.pnp
+/roomify-frontend/.pnp.js
+
+# testing
+/roomify-frontend/coverage
+
+# production
+/roomify-frontend/build
+/roomify-frontend/dist
+
+# misc
+/roomify-frontend/.DS_Store
+/roomify-frontend/.env
+/roomify-frontend/.env.local
+/roomify-frontend/.env.development.local
+/roomify-frontend/.env.test.local
+/roomify-frontend/.env.production.local
+
+/roomify-frontend/npm-debug.log*
+/roomify-frontend/yarn-debug.log*
+/roomify-frontend/yarn-error.log*
+
+# ===== BACKEND =====
+
+# Python bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Distribution / packaging
+/roomify_backend/dist/
+/roomify_backend/build/
+/roomify_backend/*.egg-info/
+/roomify_backend/.eggs/
+*.egg
+
+# Virtual environments
+/venv/
+/env/
+/.venv/
+/.env/
+/ENV/
+
+# Unit test / coverage reports
+/roomify_backend/htmlcov/
+/roomify_backend/.tox/
+/roomify_backend/.coverage
+/roomify_backend/.coverage.*
+/roomify_backend/.cache/
+/roomify_backend/nosetests.xml
+/roomify_backend/coverage.xml
+/roomify_backend/*.cover
+
+# Pyramid stuff
+/roomify_backend/*.sqlite
+/roomify_backend/data/
+
+# Uploaded files
+/roomify_backend/roomify_backend/static/images/*
+!/roomify_backend/roomify_backend/static/images/.gitkeep
+
+# Logs
+/roomify_backend/logs/
+*.log
+
+# ===== GENERAL =====
+
+# IDE specific files
+.idea/
+.vscode/
+*.swp
+*.swo
+.DS_Store
+*.sublime*
+
+# Environment variables
+.env
+.env.*
+!.env.example
+
+# Local development settings
+*.local.ini
+development-local.ini
