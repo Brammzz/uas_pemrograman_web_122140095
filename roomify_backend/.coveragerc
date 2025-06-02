@@ -1,0 +1,3 @@
+[run]
+source = roomify_backend
+omit = roomify_backend/test*
